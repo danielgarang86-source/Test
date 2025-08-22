@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🌟 MyPorto</div>
+      <ul class="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Halo, Saya <span class="highlight">Nama Anda</span></h1>
+      <p>Frontend Developer | UI/UX Enthusiast | Creative Thinker</p>
+      <button onclick="scrollToSection('projects')">Lihat Proyek</button>
+    </div>
+    <div class="hero-img">
+      <img src="assets/profile.jpg" alt="Profile">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya seorang pengembang web yang suka menciptakan desain UI/UX elegan dengan sentuhan modern. Passion saya ada di coding & desain interaktif.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Proyek Saya</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/project1.png" alt="Proyek 1">
+        <h3>Proyek 1</h3>
+        <p>Aplikasi Web responsif dengan desain elegan.</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/project1.png" alt="Proyek 2">
+        <h3>Proyek 2</h3>
+        <p>UI interaktif menggunakan JavaScript modern.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Kontak</h2>
+    <form>
+      <input type="text" placeholder="Nama" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Pesan" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Nama Anda. Dibuat dengan ❤️</p>
+  </footer>
+</body>
+</html>
